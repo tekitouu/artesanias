@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar compra | Artesanías MX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="topbar">
+        Envío nacional · Piezas artesanales · Colecciones de México y del mundo
+    </div>
+
+    <header>
+        <div class="nav">
+
+            <a href="index.html">
+                <img class="logo" src="images/logo.png" alt="Artesanías MX">
+            </a>
+
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="categorias.html">Categorías</a>
+                <a href="colecciones.html">Colecciones</a>
+                <a href="favoritos.html">♡</a>
+                <a href="chat.html">💬</a>
+                <a href="perfil.html">Mi perfil</a>
+                <a class="btn btn-pink" href="login.html">Iniciar sesión</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="page-title">
+        <div class="container">
+
+            <a class="back" href="carrito.html">
+                ‹ Volver al carrito
+            </a>
+
+            <h1>Finalizar compra</h1>
+            <p>Dirección, pago y resumen.</p>
+
+        </div>
+    </section>
+
+    <main class="section">
+        <div class="container checkout">
+
+            <div class="form-box" style="max-width:none">
+
+                <h2>Datos de compra</h2>
+
+                <form action="pedido-confirmado.html">
+
+                    <div class="form-group">
+                        <label>Nombre completo</label>
+                        <input
+                            class="form-control"
+                            placeholder="Daniela"
+                        >
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label>Estado</label>
+                            <input
+                                class="form-control"
+                                placeholder="Estado de México"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label>Código postal</label>
+                            <input
+                                class="form-control"
+                                placeholder="00000"
+                            >
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label>Dirección</label>
+                        <input
+                            class="form-control"
+                            placeholder="Calle, número y referencias"
+                        >
+                    </div>
+
+                    <h2 style="margin-top:25px">
+                        Método de pago
+                    </h2>
+
+                    <div class="radio-row">
+
+                        <label>
+                            <input type="radio" name="pago" checked>
+                            Tarjeta
+                        </label>
+
+                        <label>
+                            <input type="radio" name="pago">
+                            Cuenta digital
+                        </label>
+
+                        <label>
+                            <input type="radio" name="pago">
+                            Otro
+                        </label>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label>Número de tarjeta</label>
+                            <input
+                                class="form-control"
+                                placeholder="0000 0000 0000 0000"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label>Vencimiento</label>
+                            <input
+                                class="form-control"
+                                placeholder="MM/AA"
+                            >
+                        </div>
+
+                    </div>
+
+                    <button
+                        class="btn btn-pink"
+                        style="width:100%"
+                        type="submit"
+                    >
+                        Confirmar pedido
+                    </button>
+
+                </form>
+
+            </div>
+
+            <div class="total-box" style="height:max-content">
+
+                <h2>Resumen</h2>
+
+                <div class="line">
+                    <span>2 productos</span>
+                    <span>$1,370</span>
+                </div>
+
+                <div class="line">
+                    <span>Envío</span>
+                    <span>$90</span>
+                </div>
+
+                <div class="line total">
+                    <span>Total</span>
+                    <span>$1,460 MXN</span>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="container footer-grid">
+
+            <div>
+                <img
+                    src="images/logo.png"
+                    style="width:180px;background:white;border-radius:10px;padding:6px"
+                    alt="Artesanías MX"
+                >
+
+                <p style="margin-top:12px">
+                    Artesanías mexicanas, coleccionables y piezas especiales de otras partes del mundo.
+                </p>
+            </div>
+
+            <div>
+                <h3>Comprar</h3>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="categorias.html">Categorías</a>
+                <a href="favoritos.html">Favoritos</a>
+                <a href="carrito.html">Carrito</a>
+            </div>
+
+            <div>
+                <h3>Cuenta</h3>
+                <a href="perfil.html">Mi perfil</a>
+                <a href="pedidos.html">Mis pedidos</a>
+                <a href="direcciones.html">Direcciones</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+
+        </div>
+
+        <div class="container copyright">
+            Artesanías MX · Proyecto HTML + CSS
+        </div>
+
+    </footer>
+
+<script src="app.js"></script></body>
+</html>

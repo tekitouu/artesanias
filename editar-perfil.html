@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar perfil | Artesanías MX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="topbar">
+        Envío nacional · Piezas artesanales · Colecciones de México y del mundo
+    </div>
+
+    <header>
+        <div class="nav">
+
+            <a href="index.html">
+                <img class="logo" src="images/logo.png" alt="Artesanías MX">
+            </a>
+
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="categorias.html">Categorías</a>
+                <a href="colecciones.html">Colecciones</a>
+                <a href="favoritos.html">♡</a>
+                <a href="chat.html">💬</a>
+                <a href="perfil.html">Mi perfil</a>
+                <a class="btn btn-pink" href="login.html">Iniciar sesión</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="page-title">
+        <div class="container">
+
+            <a class="back" href="perfil.html">
+                ‹ Volver a mi perfil
+            </a>
+
+            <h1>Editar perfil</h1>
+            <p>Información personal y configuración de tu cuenta.</p>
+
+        </div>
+    </section>
+
+    <main class="section">
+        <div class="container form-box">
+
+            <h2>Datos personales</h2>
+
+            <form action="perfil.html">
+
+                <div style="text-align:center;margin-bottom:20px">
+
+                    <img
+                        class="profile-photo"
+                        src="images/rebozo.png"
+                        alt="Foto de perfil"
+                    >
+
+                    <br>
+
+                    <label
+                        class="btn btn-pink"
+                        style="margin-top:10px"
+                    >
+                        Cambiar foto
+
+                        <input
+                            type="file"
+                            accept="image/*"
+                            style="display:none"
+                        >
+                    </label>
+
+                </div>
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label>Nombre</label>
+                        <input
+                            class="form-control"
+                            value="Daniela"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label>Apellido</label>
+                        <input
+                            class="form-control"
+                            value="Peña"
+                        >
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label>Correo</label>
+                    <input
+                        class="form-control"
+                        type="email"
+                        value="daniela@example.com"
+                    >
+                </div>
+
+                <div class="form-group">
+
+                    <label>Descripción</label>
+
+                    <textarea
+                        class="form-control"
+                        style="min-height:120px"
+                    >Me gustan las artesanías, las piezas de colección y los productos hechos a mano.</textarea>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>Tipo de cuenta</label>
+
+                    <div class="radio-row">
+
+                        <label>
+                            <input type="radio" name="tipo">
+                            Comprador
+                        </label>
+
+                        <label>
+                            <input type="radio" name="tipo">
+                            Artesano
+                        </label>
+
+                        <label>
+                            <input type="radio" name="tipo" checked>
+                            Ambos
+                        </label>
+
+                    </div>
+
+                </div>
+
+                <button
+                    class="btn btn-pink"
+                    style="width:100%"
+                >
+                    Guardar cambios
+                </button>
+
+            </form>
+
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="container footer-grid">
+
+            <div>
+                <img
+                    src="images/logo.png"
+                    style="width:180px;background:white;border-radius:10px;padding:6px"
+                    alt="Artesanías MX"
+                >
+
+                <p style="margin-top:12px">
+                    Artesanías mexicanas, coleccionables y piezas especiales de otras partes del mundo.
+                </p>
+            </div>
+
+            <div>
+                <h3>Comprar</h3>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="categorias.html">Categorías</a>
+                <a href="favoritos.html">Favoritos</a>
+                <a href="carrito.html">Carrito</a>
+            </div>
+
+            <div>
+                <h3>Cuenta</h3>
+                <a href="perfil.html">Mi perfil</a>
+                <a href="pedidos.html">Mis pedidos</a>
+                <a href="direcciones.html">Direcciones</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+
+        </div>
+
+        <div class="container copyright">
+            Artesanías MX · Proyecto HTML + CSS
+        </div>
+
+    </footer>
+
+<script src="app.js"></script></body>
+</html>
